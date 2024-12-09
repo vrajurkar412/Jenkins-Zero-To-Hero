@@ -4,8 +4,12 @@ pipeline {
   }
   stages {
     stage('Test') {
-      steps {
+      steps { 
         sh 'node --version'
+      }
+        stage('dev') {
+      steps { 
+        sh 'Pipelie'
       }
     }
   }
